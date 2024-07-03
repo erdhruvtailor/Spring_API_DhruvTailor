@@ -1,0 +1,58 @@
+2024-07-03 13:28:45.572627-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]INSET INTO matches VALUES (?,?,?)"; expected "INSERT"; SQL statement:
+INSET INTO matches VALUES (?,?,?) [42001-224]
+2024-07-03 13:31:38.093407-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MATCHES" not found (this database is empty); SQL statement:
+INSERT INTO matches VALUES (?,?,?) [42104-224]
+2024-07-03 13:32:31.971468-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MATCH" not found (this database is empty); SQL statement:
+INSERT INTO match VALUES (?,?,?) [42104-224]
+2024-07-03 13:36:56.960255-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE match  \000d\000a [*]int matchId(11) PRIMARY KEY,\000d\000a name varchar(100),\000d\000a location varchar(100)\000d\000a "; SQL statement:
+CREATE TABLE match  
+ int matchId(11) PRIMARY KEY,
+ name varchar(100),
+ location varchar(100)
+  [42000-224]
+2024-07-03 13:37:45.100405-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE match  \000d\000a [*]int(11) matchId PRIMARY KEY,\000d\000a varchar(100) name,\000d\000a varchar(100) location\000d\000a "; SQL statement:
+CREATE TABLE match  
+ int(11) matchId PRIMARY KEY,
+ varchar(100) name,
+ varchar(100) location
+  [42000-224]
+2024-07-03 13:38:26.680406-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE match  \000d\000a [*]matchId int(11) PRIMARY KEY,\000d\000a name varchar(100),\000d\000a location varchar(100)\000d\000a "; SQL statement:
+CREATE TABLE match  
+ matchId int(11) PRIMARY KEY,
+ name varchar(100),
+ location varchar(100)
+  [42000-224]
+2024-07-03 13:38:28.627691-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE match  \000d\000a [*]matchId int(11) PRIMARY KEY,\000d\000a name varchar(100),\000d\000a location varchar(100)\000d\000a "; SQL statement:
+CREATE TABLE match  
+ matchId int(11) PRIMARY KEY,
+ name varchar(100),
+ location varchar(100)
+  [42000-224]
+2024-07-03 13:39:59.060934-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE matches  \000d\000a [*]matchId int PRIMARY KEY,\000d\000a name varchar(100),\000d\000a location varchar(100)\000d\000a "; SQL statement:
+CREATE TABLE matches  
+ matchId int PRIMARY KEY,
+ name varchar(100),
+ location varchar(100)
+  [42000-224]
+2024-07-03 13:40:24.956585-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE matches  \000d\000a [*]matchId INT PRIMARY KEY,\000d\000a name VARCHAR(100),\000d\000a location VARCHAR(100)\000d\000a "; SQL statement:
+CREATE TABLE matches  
+ matchId INT PRIMARY KEY,
+ name VARCHAR(100),
+ location VARCHAR(100)
+  [42000-224]
+2024-07-03 13:40:33.871171-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE matches  \000d\000a [*]match_Id INT PRIMARY KEY,\000d\000a name VARCHAR(100),\000d\000a location VARCHAR(100)\000d\000a "; SQL statement:
+CREATE TABLE matches  
+ match_Id INT PRIMARY KEY,
+ name VARCHAR(100),
+ location VARCHAR(100)
+  [42000-224]
