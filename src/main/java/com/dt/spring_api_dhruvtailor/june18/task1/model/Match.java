@@ -1,4 +1,4 @@
-package com.dt.learningtrial.pragratask.june18.task1.model;
+package com.dt.spring_api_dhruvtailor.june18.task1.model;
 
 
 import lombok.AllArgsConstructor;

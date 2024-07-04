@@ -1,7 +1,7 @@
-package com.dt.learningtrial.pragratask.june18.task1.repository;
+package com.dt.spring_api_dhruvtailor.june18.task1.repository;
 
-import com.dt.learningtrial.pragratask.june18.task1.common.SqlQueries;
-import com.dt.learningtrial.pragratask.june18.task1.model.Match;
+import com.dt.spring_api_dhruvtailor.june18.task1.common.SqlQueries;
+import com.dt.spring_api_dhruvtailor.june18.task1.model.Match;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

@@ -1,4 +1,4 @@
-package com.dt.learningtrial.pragratask.june18.task1.common;
+package com.dt.spring_api_dhruvtailor.june18.task1.common;
 
 public interface SqlQueries {
 

@@ -1,7 +1,7 @@
-package com.dt.learningtrial.pragratask;
+package com.dt.spring_api_dhruvtailor;
 
-import com.dt.learningtrial.pragratask.june18.task1.model.Match;
-import com.dt.learningtrial.pragratask.june18.task1.repository.MatchRepo;
+import com.dt.spring_api_dhruvtailor.june18.task1.model.Match;
+import com.dt.spring_api_dhruvtailor.june18.task1.repository.MatchRepo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -9,10 +9,10 @@ import org.springframework.context.ApplicationContext;
 import java.util.List;
 
 @SpringBootApplication
-public class PragraTaskApplication {
+public class Spring_API_DhruvTailorApplication {
 
     public static void main(String[] args) {
-        ApplicationContext applicationContext = SpringApplication.run(PragraTaskApplication.class, args);
+        ApplicationContext applicationContext = SpringApplication.run(Spring_API_DhruvTailorApplication.class, args);
 
         MatchRepo matchRepo = applicationContext.getBean(MatchRepo.class);
 

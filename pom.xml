@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dt.learningtrial</groupId>
-    <artifactId>PragraTask</artifactId>
+    <artifactId>Spring_API_DhruvTailor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PragraTask</name>
-    <description>PragraTask</description>
+    <name>Spring_API_DhruvTailor</name>
+    <description>Spring_API_DhruvTailor</description>
     <url/>
     <licenses>
         <license/>
@@ -37,6 +37,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.3.0</version>
         </dependency>
 
         <dependency>
